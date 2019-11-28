@@ -94,11 +94,29 @@ body {
     color: #C2C2C2 ;
 }
 .forget {
-    text-align: right;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
 }
-.forget a{
-    display: inline-block;
+.forget2 {
     text-align: right;
+    /*display: inline-block;*/
+}
+.forget1 {
+    text-align: left;
+    /*display: inline-block;*/
+}
+
+.forget1 p {
+    font-size: 40px;
+    color: #EB5757;
+    display: inline-block;
+}
+.forget2 a{
+    display: inline-block;
     font-size: 40px;
     color: #43C59E;
     text-decoration: none;
@@ -115,9 +133,7 @@ body {
     background: #43C59E;
     width: 100%;
 }
-.or {
 
-}
 .or {
     margin-top: 32px;
     text-align: center;
